@@ -1,0 +1,60 @@
+
+
+.whyus {
+  margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.whyus .options{
+    display: flex;
+justify-content: center;
+margin: 2px 200px;
+    gap: 30px;
+
+}
+.options .box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 1px 20px -2px rgb(112, 112, 255);
+    padding: 40px 1px 0px 1px;
+ 
+}
+.box  p{
+    width: 70%;
+}
+
+.box .icons{
+    background-color: blue;
+    border-radius: 50%;
+    height: 70px;
+    width:70px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+
+}
+
+.box .learnmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(172, 204, 251);
+    width: 100%;
+    height: 40px;
+}
+
+.box .learnmore h4{
+    background-color: rgb(172, 204, 251);
+    color: blue;
+}
+.box .learnmore .right-arrow{
+    background-color: rgb(172, 204, 251);
+    color: blue;
+}
